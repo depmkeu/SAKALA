@@ -1,0 +1,81 @@
+/* ===== GLOBAL SETUP ===== */
+.stApp {
+    background-color: #F8FAF9;
+    color: #2F3E33;
+}
+
+/* ===== HERO SECTION ===== */
+.hero-container {
+    background: linear-gradient(rgba(27, 77, 62, 0.65), rgba(20, 45, 38, 0.85)), 
+                url("https://images.unsplash.com/photo-1544644181-1484b3fdfc62?q=80&w=1500"); 
+    background-size: cover;
+    background-position: center;
+    padding: 80px 30px;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.hero-title { font-size: 56px; font-weight: 800; margin: 0; }
+
+/* ===== HIGHLIGHTED BUTTON ===== */
+div.stButton > button {
+    background: linear-gradient(90deg, #E6FF00, #CCFF00) !important; /* Kuning-Hijau Terang */
+    color: #1B4D3E !important;
+    width: 100% !important;
+    border-radius: 15px !important;
+    height: 60px !important;
+    font-weight: 800 !important;
+    font-size: 20px !important;
+    border: 2px solid #1B4D3E !important;
+    /* Efek Glow/Bayangan agar orang 'notice' */
+    box-shadow: 0 0 20px rgba(230, 255, 0, 0.6) !important; 
+    transition: 0.3s all ease-in-out !important;
+    cursor: pointer;
+    text-transform: none !important;
+}
+
+div.stButton > button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 30px rgba(230, 255, 0, 0.9) !important;
+    background: linear-gradient(90deg, #CCFF00, #E6FF00) !important;
+}
+
+/* ===== HIGHLIGHT BOX HASIL ===== */
+.highlight-box {
+    background: linear-gradient(135deg, #e9f959 0%, #c7f025 100%) !important;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: #1B4D3E;
+    font-weight: bold;
+    border: 1px solid #eeff80;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Header Tabel */
+.stTable th {
+    background-color: #1B4D3E !important;
+    color: white !important;
+}
+
+/* ===== TABEL STYLING ===== */
+/* Mewarnai Header Tabel */
+.stTable th {
+    background-color: #1B4D3E !important;
+    color: white !important;
+    text-align: center !important;
+}
+
+/* Menengahkan isi tabel */
+.stTable td {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+/* ===== FOOTER ===== */
+.footer-logo {
+    width: 65px;
+    height: auto;
+}
