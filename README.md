@@ -2,7 +2,7 @@
 
 ### Dashboard Prediksi Harga Pangan Kota Denpasar Berbasis Kearifan Lokal (Saka & Kala)
 
-🔗 **Live Demo:** [https://sakala-denpasar.streamlit.app/](https://sakala-denpasar.streamlit.app/)
+🔗 **Live Demo:** [https://sakala-project.streamlit.app/](https://sakala-project.streamlit.app/)
 
 ------------------------------------------------------------------------
 
@@ -74,8 +74,9 @@ streamlit run app.py
 ------------------------------------------------------------------------
 
 ## 📁 Struktur Direktori
-
+```text
 SAKALA/
+├── .devcontainer/            # Konfigurasi environment (Otomatis dari Streamlit)
 ├── app.py                     # Script utama aplikasi Streamlit (UI & Logika)
 ├── style.css                  # Custom styling (Glow effects & Layout)
 ├── requirements.txt           # Daftar library Python (Pandas, Streamlit)
